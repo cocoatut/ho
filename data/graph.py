@@ -20,9 +20,9 @@ def loadData(jd, jr, js, pd, pr, ps, counter):
     plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
     plt.legend(loc='lower right')
 
-    plt.xlabel("increase k")
+    plt.xlabel("insert num elements")
     plt.ylabel("fal pos rate")
-    plt.title("false pos rate fix m = 100000 and n = 10000 k increasing")
+    plt.title("false pos rate m fix = 1000 and k = 10")
     plt.show()
 
     
